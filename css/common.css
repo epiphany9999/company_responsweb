@@ -59,8 +59,8 @@ h3, .h3{font-size:36px;font-weight:600;line-height:80px;}
 #header{position:fixed;top:0;left:50%;z-index:51;width:100%;height:84px;background-color:transparent;transform:translateX(-50%);transition:top 250ms ease-in-out;}
 #header:before{display:block;position:absolute;top:84px;left:calc(50% - 50vw);width:100vw;height:1px;background-color:transparent;background-color:rgba(34, 34, 34, 0.1);content:"";}
 #header .logo_box{position:relative;z-index:20;width:160px;color:transparent;font-size:0;line-height:0;}
-#header .logo_box .logo{position:absolute;top:10px;left:0;width:160px;height:64px;background:url('../images/img/logo.png') no-repeat center / contain;}
-#header .logo_box .logo_inner_type{width:160px;height:64px;background:url('../images/img/logo.png') no-repeat center / contain;}
+#header .logo_box .logo{position:absolute;top:10px;left:0;width:160px;height:64px;background:url('../images/img/hbs-logo.png') no-repeat center / contain;}
+#header .logo_box .logo_inner_type{width:160px;height:64px;background:url('../images/img/hbs-logo.png') no-repeat center / contain;}
 .menu_open, .gnb_curtain, .gnb_top, .header_copyright{display:none;}
 
 .depth, .depth_list, .depth_item, .depth_text{position:relative;}
@@ -71,7 +71,7 @@ h3, .h3{font-size:36px;font-weight:600;line-height:80px;}
 .depth2 .depth2_list .depth3_text{color:#c0bfbf;font-size:14px;}
 
 body[data-top="no-top"] #header{background-color:rgba(18, 18, 18, 0.9);}
-body[data-top="no-top"] #header .logo_box .logo{background-image:url(../images/img/logo.png);}
+body[data-top="no-top"] #header .logo_box .logo{background-image:url(../images/img/hbs-logo.png);}
 .gnb_open body[data-top="no-top"] #header{background-color:transparent;}
 
 .scroll_down #header{top:-85px;}
@@ -117,7 +117,7 @@ body[data-top="no-top"] #header .logo_box .logo{background-image:url(../images/i
 	.option .language .lang_select.on:after{transform:scaleY(-1);}
 	.option .language .lang_select.on + .lang_list{visibility:visible;opacity:1;}
 
-	.gnb_open #header .logo_box .logo{background-image:url(../images/img/logo.png);}
+	.gnb_open #header .logo_box .logo{background-image:url(../images/img/hbs-logo.png);}
 	.gnb_open .depth1:before, .gnb_open .depth1:after{display:block;}
 	.gnb_open .depth1 .depth1_list .depth1_text{color:white;}
 	.gnb_open .depth2{visibility:visible;position:relative;opacity:1;}
@@ -144,7 +144,7 @@ body[data-top="no-top"] #header .logo_box .logo{background-image:url(../images/i
 
 	#header{height:64px;}
 	#header:before{top:64px;}
-	#header .logo_box .logo{position:static;background-image:url(../images/img/logo.png);}
+	#header .logo_box .logo{position:static;background-image:url(../images/img/hbs-logo.png);}
 	.menu_open{display:block;position:absolute;top:calc(50% - 15px);right:0;width:30px;height:30px;background:url(../images/img/menu-line.png) no-repeat center;color:transparent;font-size:0;}
 	.gnb_curtain{display:block;visibility:hidden;position:fixed;top:0;left:0;z-index:20;width:100vw;height:100vh;background-color:rgba(0, 0, 0, 0.5);opacity:0;}
 	.gnb{visibility:hidden;position:fixed;top:0;right:0;z-index:50;width:450px;height:100vh;background-color:#181818;overflow-y:auto;opacity:0;}
@@ -253,7 +253,6 @@ body[data-top="no-top"] #header .logo_box .logo{background-image:url(../images/i
 .footer_top .link_list .link_open:before{display:block;position:absolute;top:calc(50% - 3px);right:20px;width:12px;height:7px;background:url(../img_new/common/arrow_bottom_black.svg) no-repeat center / contain;transition:250ms ease-in-out;content:"";}
 .footer_top .link_list .link_open.on{border-bottom-left-radius:0;border-bottom-right-radius:0;}
 .footer_top .link_list .link_open.on:before{transform:scaleY(-1);}
-.footer_top .family_site{}
 .footer_top .family_site .link_open{background-color:#e5e5e5;}
 .footer_top .company_info{margin-left:20px;}
 .footer_top .company_info .link_open{border:1px solid #181818;background-color:#f8f8f8;}
